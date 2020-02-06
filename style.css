@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #333;
+	color: #f6f6f6;
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0.5em;
+	margin-bottom: 0.75em;
+}
+
+hr {
+	border-top-color: yellow;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.important {
+	background-color: peachpuff;
+	color: #222;
+	padding: 1rem 1.5rem;
+}
+
+.bg-grey{
+	background-color: #8888;
+	width: 400px;
+	height: 300px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
